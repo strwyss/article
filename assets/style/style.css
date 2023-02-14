@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+
+
+body {
+    font-family: 'Gentium Plus', serif;
+    font-size: 26px;
+}
+
+.container-flex {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: #232323;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 80%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #B33030;
+}
+
+.logo {
+    text-shadow: 2px 2px #B33030;
+    letter-spacing: 3px;
+}
+
+main {
+    display: flex;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#content {
+    flex-basis: 80%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.foreword::first-letter {
+    padding: 0 5px;
+    margin: 0 2px 0 0;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+aside {
+    font-size: 16px;
+    padding-top: 20px;
+    flex-grow: 1;
+    border-left: 1px solid #ddd;
+}
+
+.profile {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: -15px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #232323;
+}
+
+@media screen and (max-width: 576px) {
+    img {
+        width: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .profile img {
+        width: 80px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        width: 80%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .container-flex {
+        width: 100%;
+    }
+
+    header {
+        margin-top: 135px;
+    }
+
+    body {
+        font-family: 'Gentium Plus', serif;
+        font-size: 16px;
+    }
+
+    aside {
+        border: none;
+    }
+}
+
+
+
+#clock {
+    color: grey;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
